@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+
+# Local database files
+*.sqlite3
+*.db
+
+# Papers, PDFs
+papers/
+
+# LangChain/Chroma database
+rag_db/
+
+# API keys and environment files
+.env
+.env.*
+
+# __pycache__ inside subfolders
+**/__pycache__/
+
+# Gradio cache
+gradio_cached_examples/
+gradio_outputs/
+
+# Report or generated files
+*.pdf
+*.html
+*.json
+
+# PyInstaller
+dist/
+build/
+*.spec
