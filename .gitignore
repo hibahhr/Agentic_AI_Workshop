@@ -1,0 +1,82 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+.venv/
+
+# Compiled files
+*.class
+*.o
+*.so
+*.out
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+coverage-final.json
+lcov-report/
+*.lcov
+test-output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Other
+.cache/
+.next/
+.nuxt/
+.sass-cache/
+.terraform/

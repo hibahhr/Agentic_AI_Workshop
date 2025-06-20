@@ -1,0 +1,18 @@
+.container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+}
+
+.results {
+  margin-top: 2rem;
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 8px;
+  max-height: 500px;
+  overflow: auto;
+}
