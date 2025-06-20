@@ -128,3 +128,79 @@ No significant changes needed.  This slide is already well-executed.
 
 # ====================== VersionControlAgent ======================
 Saved version under ID: 482383939657946129
+
+To run your Python script that sets up and executes an Agentic AI Pitch Deck workflow, follow these **step-by-step instructions** depending on your environment:
+
+---
+
+# Prerequisites
+
+Before running the file, make sure you’ve:
+
+1. Installed all required Python packages.
+2. Set the required API keys in a `.env` file.
+3. Placed a sample file like `aurasense_ai.pptx` in the correct `input_decks/` directory.
+
+# Step 1: Install Required Dependencies
+
+Open your terminal and run:
+
+```bash
+pip install python-pptx pdf2image pytesseract python-dotenv langchain chromadb sentence-transformers google-generativeai
+```
+
+# Step 2: Set Up `.env` File
+
+Create a `.env` file in the same directory as your script:
+
+```dotenv
+GOOGLE_API_KEY=your_google_gemini_api_key
+HUGGINGFACE_API_KEY=your_huggingface_key
+```
+
+# Folder Structure
+
+Your project directory should look like:
+
+```
+project/
+│
+├── main.py
+├── .env
+├── input_decks/
+│   └── aurasense_ai.pptx
+├── papers/
+```
+
+# Run the File
+
+In the terminal:
+
+```bash
+python main.py
+```
+
+# Output
+
+You should see print statements like:
+
+```text
+====================== Pitch Deck Content ======================
+<Raw text extracted from your .pptx>
+
+====================== SlideParserAgent ======================
+<Parsed JSON from deck>
+
+====================== ContentEvaluatorAgent ======================
+<Evaluation scores and feedback>
+
+====================== ImprovementSuggesterAgent ======================
+<Slide-by-slide improvements>
+
+====================== BenchmarkRetrieverAgent ======================
+<Benchmark pitch decks or best practices from RAG>
+
+====================== VersionControlAgent ======================
+Saved version under ID: 123456...
+```
+
